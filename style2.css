@@ -1,0 +1,14 @@
+h1{
+    color: rgb(19, 134, 168);
+
+}
+
+body {
+    background-color: rgb(252, 233, 250);
+  }
+p {
+    border: 5px outset greens;
+}
+.myDiv {
+    text-align: center;
+  }
