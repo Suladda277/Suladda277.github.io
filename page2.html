@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style2.css">
+    <script src="script2.js"></script>
+<meta charset="UTF-8">
+</head>
+<body>
+    <div id="text"></div>
+    <script> 
+        function userName(){
+            var name = document.getElementById("Username");
+            var textName = document.getElementById("text");
+            out = name.value 
+            textName.innerHTML = out
+            return out
+}
+        function passWord(){
+            var pass = document.getElementById("Password");
+            var textName = document.getElementById("text");
+            out = pass.value
+            textName.innerHTML = out
+            return out
+}       
+        
+        window.onload = (event) => {
+            userName();
+            passWord();
+        };        
+    </script>
+    
+    <div>
+        <label>Username is</label>
+        <label id ="text"></label>
+    </div>
+    <div>
+        <label>Password is</label>
+        <label id ="text"></label>
+    </div>
+</body>
+</html>
